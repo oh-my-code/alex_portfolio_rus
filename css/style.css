@@ -15,7 +15,7 @@ body {
 .right_block{
   padding-left: 0;
   padding-right: 5%;
-  min-height: 600px;
+  min-height: 800px;
 }
 @media (max-width: 992px) {
   .right_block{
@@ -92,7 +92,7 @@ p.lead {
 
 .subheading {
   font-weight: 600;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.5);
 
@@ -387,6 +387,7 @@ ul.timeline > li p {
 }
 .card_portfolio a{
   text-decoration: none;
+  color: #5b5d60;
 }
 .card-img-top{
   border-radius: 0;
@@ -394,7 +395,10 @@ ul.timeline > li p {
   border-color: #de333b;
   border-width: 0 0 2px 0;
 }
-
+.card_link a{
+  text-decoration: none;
+  color: #5b5d60;
+}
 #gallery img {
   height: 80px;
   display: inline-block;
